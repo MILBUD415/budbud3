@@ -1,0 +1,82 @@
+/* Globalne style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/brick-background.jpg'); /* Tło cegły */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Kontener rejestracji */
+.registration-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+    opacity: 0.95; /* Lekka przezroczystość */
+}
+
+.registration-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    color: #333;
+}
+
+/* Formularz */
+.registration-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+fieldset {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+/* Przyciski */
+.register-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+    background-color: #0056b3;
+}

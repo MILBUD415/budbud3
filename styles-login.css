@@ -1,0 +1,125 @@
+/* Globalne style */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/brick-background.jpg'); /* Tło cegły */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Kontener logowania */
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo */
+.logo img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+/* Formularz logowania */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.login-form input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Link "Zapomniałeś hasła?" */
+.forgot-password {
+    font-size: 0.9em;
+    color: #007bff;
+    text-decoration: none;
+    margin-top: -10px;
+    text-align: left;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Przyciski */
+.login-button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 1em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+    background-color: #333;
+}
+
+/* Logowanie przez media społecznościowe */
+.social-login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.social-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.social-button img {
+    width: 20px;
+}
+
+.social-button.facebook {
+    color: #4267B2;
+    border-color: #4267B2;
+}
+
+.social-button.facebook:hover {
+    background-color: #4267B2;
+    color: white;
+}
+
+.social-button.google {
+    color: #DB4437;
+    border-color: #DB4437;
+}
+
+.social-button.google:hover {
+    background-color: #DB4437;
+    color: white;
+}

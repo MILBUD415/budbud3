@@ -1,0 +1,187 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/brick-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+/* Pasek górny z przyciskami */
+.top-navbar {
+    width: 100vw;
+    height: 3.1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(8, 8, 8, 0.747);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-btn {
+    color: #fff;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1.13em;
+    font-weight: 500;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.15s, color 0.15s, background 0.18s;
+    letter-spacing: 0.03em;
+    padding: 0.4em 1.6em;
+    border-radius: 0.38em;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.nav-btn:hover {
+    transform: scale(1.11);
+    background: rgba(255,255,255,0.10);
+}
+
+.nav-separator {
+    display: inline-block;
+    width: 1.5px;
+    height: 1.7em;
+    background: #fff;
+    opacity: 0.55;
+    margin: 0 0.15em;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+/* Kontener na środku ekranu */
+.container {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 44px 32px 44px 32px;
+    border-radius: 14px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.36);
+    max-width: 520px;
+    width: 96%;
+    position: absolute;
+    left: 50%;
+    top: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.header {
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 108px;
+    margin-bottom: 13px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+    font-weight: 700;
+    letter-spacing: 0.03em;
+}
+
+.header p {
+    margin: 0;
+    font-size: 1.17em;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    color: #fff;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.22);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1em;
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    min-width: 0;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.button span {
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 8px;
+    font-size: 1.06em;
+}
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    font-size: 0.98em;
+    transition: color 0.18s;
+}
+
+.link:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+
+/* Czerwony napis dla rejestracji */
+.link-register {
+    color: #e73030 !important;
+}
+.link-register:hover {
+    color: #a91414 !important;
+}
+
+/* Responsywność */
+@media (max-width: 700px) {
+    .container {
+        padding: 16px 2vw 16px 2vw;
+        max-width: 98vw;
+        position: static;
+        transform: none;
+        left: auto;
+        top: auto;
+        margin: 85px auto 0 auto;
+    }
+    .header img { width: 64px; }
+    .header h1 { font-size: 1.2em; }
+    .header p { font-size: 0.97em; }
+    .button { padding: 10px; }
+    .button img { width: 28px; }
+}

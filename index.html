@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BudBud - Strona Główna</title>
+    <link rel="stylesheet" href="styles-start.css">
+    <style>
+        /* Dodatkowy styl dla przycisku regulamin */
+        .regulamin-link {
+            position: absolute;
+            top: 18px;
+            right: 38px;
+            color: #fff;
+            background: none;
+            border: none;
+            font-size: 1.08em;
+            text-decoration: underline;
+            cursor: pointer;
+            z-index: 20;
+            transition: color 0.13s;
+        }
+        .regulamin-link:hover {
+            color: #ffd700;
+        }
+        @media (max-width: 600px) {
+            .regulamin-link {
+                right: 12px;
+                top: 12px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Pasek nawigacyjny na górze strony -->
+    <div class="top-navbar">
+        <a href="ogloszenia-publiczne.php" class="nav-btn">Ogłoszenia Budowlane</a>
+        <span class="nav-separator"></span>
+        <a href="#" class="nav-btn">Sprzedaż</a>
+        <span class="nav-separator"></span>
+        <a href="#" class="nav-btn">Nieruchomości</a>
+        <span class="nav-separator"></span>
+        <a href="#" class="nav-btn">Kalkulator Budowlany</a>
+        <a href="regulamin.html" class="regulamin-link">regulamin</a>
+    </div>
+    <div class="container">
+        <div class="header">
+            <img src="assets/tools-icon.png" alt="Ikona narzędzi" style="width:54px; margin-bottom:7px;">
+            <h1>Witaj w BudBud</h1>
+            <p>Bazie ogłoszeń budowlanych</p>
+        </div>
+        <div class="buttons">
+            <div class="button client-login">
+                <img src="assets/client-icon.png" alt="Ikona klienta">
+                <span>Logowanie dla Klienta</span>
+                <div class="links">
+                    <a href="login-client.php" class="link link-login">Logowanie</a>
+                    <a href="register-client.php" class="link link-register">Rejestracja</a>
+                </div>
+            </div>
+            <div class="button contractor-login">
+                <img src="assets/contractor-icon.png" alt="Ikona wykonawcy">
+                <span>Logowanie dla Wykonawców</span>
+                <div class="links">
+                    <a href="login-contractor.html" class="link link-login">Logowanie</a>
+                    <a href="register-contractor.html" class="link link-register">Rejestracja</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

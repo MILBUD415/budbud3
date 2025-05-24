@@ -1,0 +1,79 @@
+[
+    {
+        "email": "etmanski.kamil@wp.pl",
+        "first_name": "kamil",
+        "last_name": "etmanski",
+        "phone": "696280591",
+        "password": "$2y$12$GsTLSSdSDQgfQcbsdONV.OiMsmNtKrKUH\/FkY6EVIFsnu\/cqG\/FlC",
+        "street": "mickiewicza 6\/4",
+        "postal_code": "81-041",
+        "city": "Gdynia",
+        "country": "Polska"
+    },
+    {
+        "email": "robaczysko998@gmail.com",
+        "first_name": "kamil",
+        "last_name": "etmanski",
+        "phone": "696280591",
+        "password": "$2y$12$GRmZrjCLiWtTt6b4V.63qewpIUQolHd.WnFZzqQz29dcFzzQYiDWy",
+        "street": "mickiewicza 6\/4",
+        "postal_code": "81-041",
+        "city": "Gdynia",
+        "country": "Polska"
+    },
+    {
+        "email": "robaczysko000@wp.pl",
+        "first_name": "Kamil",
+        "last_name": "kamil",
+        "phone": "999999999",
+        "password": "$2y$12$y21wPmbOr.jHjqAnI9CoSu.i2ynwuzhih7HdR7.rYq2Md3ADC4abG",
+        "street": "mickiewicza 6\/4",
+        "postal_code": "84-230",
+        "city": "Rumia",
+        "country": "Polska"
+    },
+    {
+        "email": "robaczysko001@wp.pl",
+        "first_name": "Kamil",
+        "last_name": "kamil",
+        "phone": "999999999",
+        "password": "$2y$12$QtnMLrbqVeEDbce1EQCttOe7kghSe4CHZ2OURSyarNsaW0PP3W2z6",
+        "street": "mickiewicza 6\/4",
+        "postal_code": "84-230",
+        "city": "Rumia",
+        "country": "Polska"
+    },
+    {
+        "email": "Kamil1@wp.pl",
+        "first_name": "hgjghj",
+        "last_name": "ghjghjg",
+        "phone": "ghjghjg",
+        "password": "$2y$12$IHc5\/Ve4cS1Onpq1y.k89eMub8wfTcAlJBe74Z\/L9OjLYgaaENi5K",
+        "street": "aaa",
+        "postal_code": "aaa",
+        "city": "aaa",
+        "country": "Polska"
+    },
+    {
+        "email": "etm@wp.pl",
+        "first_name": "Kamil",
+        "last_name": "Kamil",
+        "phone": "666666666",
+        "password": "$2y$12$ulvTWYkVuwlyWYU\/ZBPsMeLYptqFambMJpd.RHuX7n9JJ5dH4E1vC",
+        "street": "Llll",
+        "postal_code": "81-011",
+        "city": "Kamil",
+        "country": "Polska"
+    },
+    {
+        "email": "etmankarol@gmail.com",
+        "first_name": "Alechandro",
+        "last_name": "Despucci",
+        "phone": "724921821",
+        "password": "$2y$12$3k..iPvXcIZOUQKJ356qre3IHYGdJ6k5euw7rDUahNnhsxDVNUNAy",
+        "street": "Daleko , nie znasz ...",
+        "postal_code": "99-999",
+        "city": "Bardziej wioska ",
+        "country": "Polska"
+    }
+]

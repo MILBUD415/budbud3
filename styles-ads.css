@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.sort-section {
+    margin-bottom: 20px;
+}
+
+.sort-section label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sort-section select {
+    font-size: 16px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.add-ad-section {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+.add-ad-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.add-ad-button .icon {
+    width: 50px;
+    height: 50px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.add-ad-button .icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.add-ad-button span {
+    font-size: 18px;
+    font-weight: bold;
+}

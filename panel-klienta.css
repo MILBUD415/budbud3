@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('assets/client-background.jpg'); /* Tło z klienta */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(0, 0, 0, 0.7); /* Półprzezroczyste tło */
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.header .logo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+}
+
+.header .logo img {
+    width: 100px; /* Rozmiar nowego loga */
+    margin-bottom: 5px;
+}
+
+.header .logo .subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: -10px;
+    color: white; /* Kolor napisu na biały */
+}
+
+.panel-title {
+    text-align: center;
+    font-size: 32px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: white; /* Tekst tytułu w białym kolorze */
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.panel {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.panel:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.panel h3 {
+    margin: 20px 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.panel p {
+    margin: 10px 0;
+    font-size: 14px;
+    color: #555;
+    line-height: 1.6;
+}
